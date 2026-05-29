@@ -6,7 +6,7 @@ Saudi Riyals: 25
 Total Currency in NRs: 2232.7
 """
 
-doller = 10
+dollar = 10
 riyal = 25
-nepali_rupees = (doller * 133.72) + (riyal * 35.82)
+nepali_rupees = (dollar * 133.72) + (riyal * 35.82)
 print(f"Total currency in NRs: {nepali_rupees}")
