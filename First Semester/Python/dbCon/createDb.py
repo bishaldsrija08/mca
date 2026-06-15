@@ -1,7 +1,5 @@
-import mysql.connector as mysqlCon
+import connection
 
-con = mysqlCon.connect(
-    host = "localhost",
-    user= "root",
-    password =""
-)
+mycursor = connection.con.cursor()
+mycursor.execute("CREATE DATABASE IF NOT EXISTS mydb_mca")
+print("Database created successfully.")
